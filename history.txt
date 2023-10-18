@@ -1,0 +1,67 @@
+mkdir soa2023-gitplay
+cd soa2023-gitplay
+git init
+ls
+ls -al
+code .
+git status
+git add README.md
+git status
+git commit -m "Created README"
+git status
+git log
+git l
+git remote add origin git@github.com:ISS-SOA/soa2023-gitplay.git
+git remote -v
+git push origin main
+ls ~/.ssh
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa
+git l
+git status
+git add . 
+git status
+git commit -m "Started API Client class"
+git status
+git log
+git l
+git lh
+git checkout 4c8d7e2
+git switch main
+git lh
+git push origin main
+git l
+git branch specs-first-ray
+git lh
+git switch specs-first-ray
+git l
+git status
+git add .
+git status
+git commit
+echo $EDITOR
+git l
+git status
+git add .
+git status
+git commit -m "Move test headers into spec_helper"
+git l
+git push origin specs-first-ray
+git status
+git add .
+git status
+git commit -m "Comments for tests"
+git push origin specs-first-ray
+git l
+git switch main
+git l
+git switch main
+git l
+git pull origin main
+git l
+git lh
+cd
+cat .gitconfig
+git status
+gst
+history
