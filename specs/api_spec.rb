@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-require 'minitest/autorun'
-require 'minitest/unit'
-
+require_relative 'spec_helper'
 require_relative 'lib/api_explore'
 
 describe 'API' do
