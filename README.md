@@ -7,7 +7,7 @@ This is a demo project about using git
 ## Execution
 
 ```shell
-ruby lib/api_explore.rb
+ruby app/controllers/app.rb
 ```
 
 ## Testing
