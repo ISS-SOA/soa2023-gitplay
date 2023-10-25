@@ -1,3 +1,4 @@
+# Git Workshop 1 - Git Basics: init, commit, push, Github pull request, pull
 mkdir soa2023-gitplay
 cd soa2023-gitplay
 git init
@@ -65,3 +66,48 @@ cat .gitconfig
 git status
 gst
 history
+
+# Git Workshop 2 - Rebasing Feature Branches
+git l
+git switch main
+git open
+git checkout 2ebc43c
+git checkout -b feature-mvc-soumya
+git l
+git push -u origin feature-mvc-soumya
+gits
+gst
+git status
+git add .
+git status
+git commit -m "Started MVC web app"
+git push
+git status
+git add .
+git commit -m "Updated README for MVC Web App"
+git l
+git push
+git switch main
+git switch feature-mvc-soumya
+git switch main
+git checkout f3b3f96
+git switch feature-mvc-soumya
+git status
+git add .
+git status
+git commit -m "Add specs for MVC web app"
+git push
+git rebase main
+cat specs/spec_helper.rb
+gst
+git add specs/spec_helper.rb
+git rebase --continue
+git l
+git push
+git l
+git push --force
+git l
+git switch main
+git pull
+git pull --set-upstream origin main
+git l
